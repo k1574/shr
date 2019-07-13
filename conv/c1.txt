@@ -1,0 +1,54 @@
+It's just my set of rules to write small-one-binary-file text computing programs.
+!!! It's not for "big" programs, it's only for my small projects in UNIX-style(MY UNIX style). */
+* To easier understand and write code in 'c1' style:
+It can be used for functions or local context variables, but not global, there are different rules.
+	* 's' prefix in TYPES stands for 'signed'.
+	* 'u' prefix in types stand for 'unsinged'.
+	* 'l' postfix in types stands for 'long'.
+	* 's' postfix in types stands for 'short'.
+	* 'c' postfix in types and ( !!! ) names stands for 'char' or 'counter'(Context(Yeah, I like Perl. (Don't kill me please.))).
+	* 'a' postfix stands for 'amount', when it's related to 's' postfix 's' can be dropped at end.
+	* 's' prefix in names(not types) stands for 'string'(zero-end, of course).
+	* 's' postfix in names(not FUCKING TYPES) stands for plural(as in english).
+	* 'l' prefix in names stands for 'line'.
+	* 'n' stands for 'num' or 'number', context dependence.
+	* 'w' stands for 'word' or 'write', context dependence.
+	* 'm' prefix stands for 'maximum'.
+	* 'm' stands for 'mask' or 'memory', context dependence.
+	* 'f' stands for 'file'(As in standard library, yeap).
+	* 'r' stands for 'r'
+	* 'i' stands for 'in'.
+	* 'o' stands for 'out'.
+	* 'p' stands for 'put' or 'pointer', watch context.
+	* 'sep' stands for 'separator'(Obviously).
+	* 'rep' stands for 'repeat'.
+	* '0' postfix stands for 'start value'(Nice idea, guys from Suckless).
+	* '2' inside of two types stands for 'to'(Converting or something).
+	* '9' postfix stands for 'end value'(Plan 9? Peak of evolution? THE END?).
+	* 'id' stands for try to guess what(ID);
+	* 'ix' stands for 'index'(Isn't it the same as last one..?).
+	* 'dst' stands for 'destination'.
+	* 'src' stands for 'source'.
+	* 'mak' stands for 'make'.
+	* 'lst' stands for 'list'.
+	* 'pth' stands for 'path'.
+	* 'std' stands for 'standard'.
+	* 'opt' stands for 'option'.
+	* 'cpy' stands for 'copy'.
+	* 'len' stands for 'length'.
+	* 'opn' stands for 'open'.
+	* 'cls' stands for 'close'.
+	* 'nop' stands for 'nop'.
+	* 'mem' stands for 'memory'.
+	* 'err' and 'e' stand for 'error'.
+	* 'chp' stands for 'chop'.
+	* 'rev' stands for 'reverse'.
+	* 'ctl' stands for... you know it, you use it every fucing day(Control).
+	* 'alt' stands for 'alternative'(I'm tired to keep my clownery).
+	* 'qry' stands for 'query'.
+	* 'srv' stands for 'server' or 'serve', context depends.
+	* 'hdl' stands for 'handle'.
+	* 'cmb' stands for 'combination'.
+	* 'snd' stands for 'send'(Should I really explain NO SOUND in such programs?).
+	* 'sck' stands for 'sock(et)?'.
+* That's all about names for now(Yes, I type it to ctl my->self).
