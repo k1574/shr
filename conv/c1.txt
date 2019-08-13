@@ -2,6 +2,7 @@ It's just my set of rules to write small-one-binary-file text computing programs
 !!! It's not for "big" programs, it's only for my small projects in UNIX-style(MY UNIX style). */
 * To easier understand and write code in 'c1' style:
 It can be used for functions or local context variables, but not global, there are different rules.
+	* 'x' stands for 'multiplier'.
 	* 's' prefix in TYPES stands for 'signed'.
 	* 'u' prefix in types stand for 'unsinged'.
 	* 'l' postfix in types stands for 'long'.
@@ -10,7 +11,7 @@ It can be used for functions or local context variables, but not global, there a
 	* 'a' postfix stands for 'amount', when it's related to 's' postfix 's' can be dropped at end.
 	* 's' prefix in names(not types) stands for 'string'(zero-end, of course).
 	* 's' postfix in names(not FUCKING TYPES) stands for plural(as in english).
-	* 'l' prefix in names stands for 'line'.
+	* 'l' prefix in names stands for 'line' or 'list'.
 	* 'n' stands for 'num' or 'number', context dependence.
 	* 'w' stands for 'word' or 'write', context dependence.
 	* 'm' prefix stands for 'maximum'.
