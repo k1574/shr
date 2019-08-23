@@ -1,0 +1,2 @@
+It's same thing as about LADSPA, but it can be really
+useful for sound plugins.

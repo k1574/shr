@@ -1,0 +1,39 @@
+# Big collection techie articles(About Solaris in general).
+	blogs.sun.com
+# Perl modules collection.
+	cpan.org
+#  Big catalogue of programs for *-nix.
+	freashmeat.org
+# Linux kernel developers' site.
+	kernel.org
+# Site for beginners.
+	linux.com
+# Unofficial collection of documents about [GNU/]Linux.
+	linux.org
+# The biggest archive of technique information about Linux.
+	linux.slashdot.org
+# Storage of kernel information and patches for it.
+	linuxhq.com
+# Set of materials about Linux and open source programs.
+	lwn.net
+# Novelties agregator about [GNU/]Linux.
+	lxer.com
+# AIX oriented site with many links and forums.
+	rootvg.net
+# It's about computer security.
+	securityfocus.com
+# Data base of questions from sys-admins.
+	serverfault.com
+# Catalogue of network soft and hard ware.
+	ServerFiles.com
+# Storage of the newest reference and techique information about
+# different topics.
+	slashdot.org
+# Open blog with news and articles about Solaris.
+	solariscentral.org
+# For Sun-systems.
+	sun.com/bigadmin
+	sunhelp.org
+# Site "UNIX Guru Universe" with information for sys-admins.
+	ugu.com
+

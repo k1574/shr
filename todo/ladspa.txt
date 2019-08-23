@@ -1,0 +1,4 @@
+I should learn LADSPA later. I guess I can
+find somewhere book about it. Or maybe I should just
+use JACK. Who does care, I want to understand it in low level.
+Learn it.

@@ -1,0 +1,9 @@
+# From book about *-nix administration. Lazy to rememeber which one.
+# Who does care, yeah?
+ubuntu  help.ubuntu.com
+suse    novell.com/documentation
+rhel    redhat.com/docs
+solaris docs.sun.com
+aix
+	www.redbooks.ibm.com # Many PDF books.
+	ibm.com/support      # Comments, FAQs.
