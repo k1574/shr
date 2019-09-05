@@ -1,0 +1,4 @@
+# curses/ncurses
+	https://pubs.opengroup.org/onlinepubs/7908799/xcurses/curses.h.html
+	https://www.linuxjournal.com/content/getting-started-ncurses
+	http://www.tldp.org/HOWTO/NCURSES-Programming-HOWTO/

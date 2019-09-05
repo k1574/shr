@@ -1,0 +1,2 @@
+https://jan.newmarch.name/Wayland/
+https://wayland.freedesktop.org/architecture.html
