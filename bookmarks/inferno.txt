@@ -1,0 +1,2 @@
+# Shell article.
+https://powerman.name/doc/Inferno/sh_en
