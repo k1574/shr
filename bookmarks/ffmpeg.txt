@@ -1,0 +1,4 @@
+http://www.belursus.info/soft/i.php?c=ffmpeg
+https://trac.ffmpeg.org/wiki/EncodingForStreamingSites
+https://trac.ffmpeg.org/wiki/Capture/Desktop
+https://ffmpeg.org/ffmpeg-filters.html

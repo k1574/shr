@@ -1,0 +1,15 @@
+# [screenshot]
+# Capture all the screen(screenshot).
+import -window root /path/file.png
+
+# Then you can do some other stuff with it like resize to more suitable size.
+import -window root -resize 600 /path/file.png
+
+# And you can do it even if you are not at the X session.
+import -window root -resize 600 \
+  -display :0 /path/file.pngimport -window root -resize 600 \
+  -display :0 /path/file.png
+
+# With SSH.
+ssh user@host "import -window root \
+  -resize 600 -display :0 png:-" > /tmp/myshot.png

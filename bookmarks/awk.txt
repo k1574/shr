@@ -1,0 +1,3 @@
+http://tuxgraphics.org/~guido/scripts/awk-one-liner.html
+https://en.wikibooks.org/wiki/AWK
+http://www.linuxfocus.org/English/September1999/article103.html
