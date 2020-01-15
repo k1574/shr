@@ -1,0 +1,51 @@
+[voidlinux]
+#runit is the default init system used by Void Linux. runit is a suite of tools which include a PID 1 init as well as a daemontools-compatible process supervision framework, along with utilities which streamline creation and maintenance of services.
+#runit employs a concept of a service directory, responsible for an individual service, which is a process to monitor, and an optional log service. 
+
+# Basic usage
+# To start, stop or restart a service, run:
+sv up service_name
+sv down service_name
+sv restart service_name
+
+# To get the current status of a service, run:
+sv status service_name
+
+# To get the current status of all enabled services, run:
+sv status /var/service/*
+
+
+# Enabling new services.
+# Void Linux provides service directories for most daemons in /etc/sv/. To enable a service,
+#	create a symlink to the service directory in /var/service.
+# 	This will automatically start the service in your current runlevel.
+#	Once a service is linked it will always start on boot
+#	and restart if it stops, unless administratively downed.
+ln -s /etc/sv/service_name /var/service/
+
+# To keep a enabled service from starting automatically at boot,
+#	create a file named down in the service directory.
+touch /etc/sv/service_name/down
+
+
+# Disabling services
+#	To disable a service in the current runlevel,
+#	remove the symlink to its service directory from /var/service.
+rm /var/service/service_name
+
+
+# Editing services
+# To edit a service, first duplicate its service directory under a different name.
+cp -aR /etc/sv/service_name /etc/sv/service_name_edited
+
+# The contents of the duplicated directory can then be edited as needed, for example, by using vi(1).
+vi /etc/sv/service_name_edited
+
+# After editing, the old service should then be stopped, disabled and replaced with the new one.
+sv down service_name
+rm /var/service/service_name
+ln -s /etc/sv/service_name_edited /var/service/
+
+#The runit-void package currently supports two runlevels: single and default.
+#	single: it just runs sulogin(8) and the necessary steps to rescue your system.
+#	default: The default run level. default runs all services linked in /var/service/ (aka multi-user).
