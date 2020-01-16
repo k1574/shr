@@ -62,3 +62,4 @@ https://github.com/jienfak/cli
 https://git.suckless.org/sic
 https://git.suckless.org/surf
 https://github.com/PurpleI2P/i2pd.git
+https://git.suckless.org/quark

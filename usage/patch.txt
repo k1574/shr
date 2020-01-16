@@ -1,0 +1,8 @@
+#Create patch.
+diff -u old_file new_file > diff.diff
+
+# Apply patch.
+patch < diff.diff
+
+# Undo patch.
+patch -R < diff.diff
