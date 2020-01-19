@@ -63,3 +63,6 @@ https://git.suckless.org/sic
 https://git.suckless.org/surf
 https://github.com/PurpleI2P/i2pd.git
 https://git.suckless.org/quark
+https://git.suckless.org/blind
+https://git.suckless.org/sent
+https://git.suckless.org/farbfeld
