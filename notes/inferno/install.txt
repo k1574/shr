@@ -1,0 +1,4 @@
+Void Linux.
+	ld: Cannot find -lgcc.
+		Install "gcc-multilib".
+	( I hate GCC. )
